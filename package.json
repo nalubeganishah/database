@@ -1,0 +1,23 @@
+{
+  "name": "cq8final-project",
+  "version": "1.0.0",
+  "description": "codequeen8 final project forCode Nerds group",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/server.js"
+  },
+  "keywords": [],
+  "author": "NISAH-FORTUNATE",
+  "license": "ISC",
+  "dependencies": {
+    "body": "^5.1.0",
+    "date-fns": "^2.30.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^7.1.1",
+    "nodemon": "^2.0.22",
+    "parser": "^0.1.4",
+    "uuid": "^9.0.0"
+  }
+}
