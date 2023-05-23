@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<!-- Coding By CodingNepal - codingnepalweb.com -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> create account </title> 
+    <link rel="stylesheet" href="create account.css">
+   </head>
+<body>
+  <div class="wrapper">
+    <h2><b>Create a secure account</b></h2>
+    <form action="#">
+      <div class="input-box">
+        <label for="fullName"><b>Full name</b></label>
+        <input type="text" id="fullName" name="fullName" placeholder="Enter your name" required>
+      </div>
+      <br>
+
+      <div class="input-box">
+        <label for="phoneNumber"><b>phone number</b></label>
+        <input type="text" id="phoneNumber" name="phoneNumber" placeholder="Enter your phone number" required>
+      </div>
+      <br>
+      
+      <div class="input-box">
+        <label for="email"><b>Email Address</b></label>
+        <input type="text" id="email" name="email" placeholder="Enter your email" required>
+      </div>
+      <br>
+      
+      <div class="input-box">
+        <label for="password"><b>password</b></label>
+        <input type="password" id="password" name="password" placeholder="Create password" required>
+        <i class="far fa-eye" id="togglePassword" style="margin-left: -30px; cursor: pointer;"></i>
+      </div>
+      <br>
+      
+      <div class="input-box">
+        <label for="confirmPassword"><b>Confirm Password</b></label>
+        <input type="password" id="confirmPassword" name="confirmPassword" placeholder="Confirm password" required>
+      </div>
+      <br>
+      
+      <div class="input-box">
+        <label for="promoCode"><b>Referer Phone/Promo code</b></label>
+        <input type="password" id="promoCode" name="promoCode" placeholder="referer phone/promo code">
+      </div>
+      <br>
+
+      <div class="policy">
+        <input type="checkbox">
+        <h3>I accept all terms & condition</h3>
+      </div>
+      <div class="input-box button">
+        <input type="Submit" id="saveBtn" value="Create Account">
+      </div>
+      <div class="text">
+        <h3>Already have an account? <a href="sign in.html">Sign In </a></h3>
+      </div>
+    </form>
+  </div>
+</body>
+<script src="./create account.js"></script>
+</html>
